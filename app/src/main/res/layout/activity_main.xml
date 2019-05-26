@@ -3,9 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
-            name="aStudent"
-            type="com.databinding.MainActivity.Student" />
+            name="textOne"
+            type="String" />
+
+        <variable
+            name="textTwo"
+            type="String" />
+
+        <variable
+            name="textThree"
+            type="String" />
     </data>
 
     <LinearLayout
@@ -18,12 +27,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{aStudent.name}" />
+            android:text="@{textOne}" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{String.valueOf(aStudent.age)}" />
+            android:text="@{textTwo}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{textThree}" />
 
     </LinearLayout>
 </layout>
