@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         binding.tv1.setText("AZHAR");
         binding.tv2.setText("ANWAR");
         binding.tv3.setText("ANIS");
-        binding.tv4.setText("AMINA");
+
     }
 }
